@@ -1,0 +1,32 @@
+.nav-1 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-1 li {
+  display: inline-block;
+}
+
+.nav-1 a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+
+.nav-2 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-2 ul li {
+  display: inline-block;
+}
+
+.nav-2 ul li a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+/*# sourceMappingURL=05_Sass_Nesting.css.map */
