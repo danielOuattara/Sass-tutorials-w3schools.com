@@ -3,53 +3,36 @@ Daniel OUATTARA- daniel.ouattara_AT_gmx.com
 31 05 2020
 Sass Tutorial from: https://www.w3schools.com/sass/
  --------------------------------------------------*/
-
-$myFont: Helvetica, sans-serif;
-$myColor: red;
-$myFontSize: 18px;
-$myWidth: 30%;
-
-
 div {
   margin-bottom: 50px;
 }
 
 #h1-01, #p-01, #div-01 {
-  font-family: $myFont;
-  font-size: $myFontSize;
-  color: $myColor;
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  color: red;
 }
 
 #div-01 {
-  width: $myWidth;
+  width: 30%;
   border: 2px solid grey;
 }
 
-
 /*---------------------*/
-
-$myColor-2: green;
-
 #h1-02 {
-  $myColor-2: blue;
-  color: $myColor-2;
+  color: blue;
 }
 
 #p-02 {
-  color: $myColor-2;
+  color: green;
 }
 
-
 /*---------------------*/
-
-$myColor-3: yellow;
-
 #h1-03 {
-  $myColor-3: rgb(234, 0, 255) !global;
-  color: $myColor-3;
+  color: #ea00ff;
 }
 
 #p-03 {
-  color: $myColor-3;
+  color: #ea00ff;
 }
-
+/*# sourceMappingURL=04_Sass_Variables.css.map */
