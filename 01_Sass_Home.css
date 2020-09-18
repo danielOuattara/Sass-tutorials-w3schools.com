@@ -1,0 +1,14 @@
+/*-------------------------------------------------
+Daniel OUATTARA- daniel.ouattara_AT_gmx.com
+31 05 2020
+Sass Tutorial from: https://www.w3schools.com/sass/
+ --------------------------------------------------*/
+/* Define standard variables and values for website */
+/* Use the variables */
+body {
+  background-color: lightblue;
+  color: darkblue;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=01_Sass_Home.css.map */

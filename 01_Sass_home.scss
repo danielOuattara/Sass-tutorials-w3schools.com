@@ -1,0 +1,20 @@
+/*-------------------------------------------------
+Daniel OUATTARA- daniel.ouattara_AT_gmx.com
+31 05 2020
+Sass Tutorial from: https://www.w3schools.com/sass/
+ --------------------------------------------------*/
+
+ 
+/* Define standard variables and values for website */
+
+$bgcolor: lightblue;
+$textcolor: darkblue;
+$fontsize: 18px;
+
+/* Use the variables */
+
+body {
+  background-color: $bgcolor;
+  color: $textcolor;
+  font-size: $fontsize;
+}
