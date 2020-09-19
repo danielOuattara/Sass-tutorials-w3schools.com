@@ -1,0 +1,34 @@
+@mixin important_text {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid blue;
+}
+
+
+@mixin primary_bordered_element($width, $border_style, $color ) {
+    border: $width $border_style $color
+}
+
+@mixin other_bordered_element($width:4px, $border_style: solid, $color: grey ) {
+    border: $width $border_style $color
+}
+
+.danger {
+//   include @mixin important-text in .danger
+    @include important_text;
+    background-color: green;
+}
+
+.para-1 {
+    @include primary_bordered_element(2px, dashed , red );
+}
+
+.para-2 {
+    @include primary_bordered_element(2px, groove ,#298c22 );
+}
+
+.para-3 {
+    @include other_bordered_element($border_style: groove , $width: 5px);
+}
+
