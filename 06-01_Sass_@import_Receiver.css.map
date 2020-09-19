@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,IAAI;AACJ,IAAI;AACJ,EAAE;AACF,EAAE,CAAC;EACD,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACX",
+    "sources": [
+        "06-01_Sass_@import_receiver.scss",
+        "06-01_Sass_@import.scss"
+    ],
+    "names": [],
+    "file": "06-01_Sass_@import_receiver.css"
+}

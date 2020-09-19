@@ -1,0 +1,96 @@
+<!-------------------------------------------------
+Daniel OUATTARA- daniel.ouattara_AT_gmx.com
+31 05 2020
+Sass Tutorial from: https://www.w3schools.com/sass/
+ -------------------------------------------------->
+
+ <!DOCTYPE html>
+ <html lang="en" dir="ltr">
+     <head>
+         <meta charset="utf-8">
+         <link rel="stylesheet" href="./06-01_Sass_@import.css">
+         <title>Sass @import and Partials</title>
+     </head>
+     <body>
+         <h1>Sass @import and Partials.</h1><hr/>
+
+
+<!-- Sass keeps the CSS code DRY (Don't Repeat Yourself). 
+    
+One way to write DRY code file is to keep related code section in separate files.
+
+You can create small files with CSS snippets to include in other Sass files. 
+
+Examples of such files can be: reset file, variables, colors, fonts, font-sizes, etc. -->
+ 
+ 
+<!-- Sass Importing Files
+==========================
+
+Just like CSS, Sass also supports the '@import' directive.
+
+The '@import' directive allows you to include the content of one file in another.
+
+The CSS '@import' directive has a major drawback due to performance issues; 
+it creates an extra HTTP request each time you call it.
+
+However, the Sass '@import' directive includes the file in the CSS; 
+so no extra HTTP call is required at runtime! 
+
+___________________
+Sass Import Syntax:  @import filename;
+
+
+Tip:  > You do not need to specify a file extension, Sass automatically assumes that you 
+        mean a '.sass' or '.scss' file. 
+      
+      > You can also import CSS files. The '@import' directive imports the file and any 
+        'variables' or 'mixins' defined in the imported file can then be used in the main file.
+
+You can import as many files as you need in the main file:
+Example
+______________________
+@import "variables";
+@import "colors";
+@import "reset";
+
+Let's look at an example: Let's assume we have a reset file called "reset.scss", that looks like this:
+
+We write some code in 06_Sass_@import.scss (open to see)
+-->
+
+    <ul>
+        <ol>one</ol>
+        <ol>two</ol>
+        <ol>three</ol>
+    </ul>
+
+<!-- and now we want to import the "06_@import.scss" file into another file called 
+    "06_Sass_@import_Other-1.scss".
+
+Here is how we do it: add @import "06_Sass_@import" to the top of the targeted file.
+
+It is normal to add the @import directive at the top of the targeted file; 
+this way its content will have a global scope: -->
+
+
+<!-- Sass Partials
+    =================
+
+By default, Sass transpiles all the .scss files directly. However, when you want
+to import a file, you do not need the file to be transpiled directly.
+
+Sass has a mechanism for this: If you start the filename with an underscore, Sass 
+will not transpile it. Files named this way are called partials in Sass.
+
+
+
+Sass Partial Syntax:    _filename;
+-------------------
+ -->
+
+ 
+ 
+     </body>
+ </html>
+ 
