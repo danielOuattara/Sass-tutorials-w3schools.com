@@ -31,23 +31,20 @@ With Sass, you can store information in variables, like:
 
 Sass uses the '$' symbol, followed by a name, to declare variables:
 
-Sass Variable Syntax:
+Sass Variable Syntax:  $variablename: value;
 --------------------
-____________________
-$variablename: value;
 
-The following example declares 4 variables named myFont, myColor,
-myFontSize, and myWidth. After the variables are declared, you can use
-the variables wherever you want: -->
+The following example declares 4 variables named 'myFont', 'myColor',
+'myFontSize', and 'myWidth'. 
 
+After the variables are declared, you can use the variables 
+wherever you want: -->
 
+    <h1 id="h1-01">Hello World</h1>
 
+    <p id="p-01">This is a paragraph.</p>
 
-        <h1 id="h1-01">Hello World</h1>
-
-        <p id="p-01">This is a paragraph.</p>
-
-        <div id="div-01">This is some text inside a container.</div>
+    <div id="div-01">This is some text inside a container.</div>
 
 
 <!-- So, when the Sass file is transpiled, it takes the variables 
