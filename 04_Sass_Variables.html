@@ -55,7 +55,7 @@ wherever you want: -->
 <!-- Sass Variable Scope
 =========================
 
-Sass variables are only available at the level of nesting where they are defined.
+Sass variables are only available at the block level where they are defined.
 
 Look at the following example: -->
 
@@ -86,6 +86,7 @@ Look at the following example: same as above, but with '!global' added -->
 
 
 <!-- IMPORTANT Tip: Global variables should be defined outside any rules. 
+    
                     It could be wise to define all global variables in its 
                     own file, named "_globals.scss", and include the file 
                     with the @include keyword. -->
